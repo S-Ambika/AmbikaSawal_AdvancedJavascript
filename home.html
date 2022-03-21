@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+    <div id="mBody">
+        <h3>Know your Weather</h3>
+        <p>Enter city name like Delhi,Mumbai etc</p>
+
+        <div class="search">
+            <div>
+                <input type="text" id="city" placeholder="Enter City">
+
+
+            </div>
+
+            <div class="btn">
+                <input type="submit" class="btn" id="submit" value="Search">
+            </div>
+        </div>
+        <div class="container">
+            <div>
+
+                <img class="icon" src="images/default.svg">
+
+            </div>
+            <div class="temp">
+                ---°C</div>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="summary">Wind Speed</p>
+                        </td>
+                        <td>
+                            <p class="summary"> : </p>
+                        </td>
+                        <td>
+                            <p class="summary" id="wind-spped-text">--- kms/h</p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="summary">Conditions</p>
+                        </td>
+                        <td>
+                            <p class="summary"> : </p>
+                        </td>
+                        <td>
+                            <p class="summary" id="condition-text">---</p>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="summary">Location</p>
+                        </td>
+                        <td>
+                            <p class="summary"> : </p>
+                        </td>
+                        <td>
+                            <p class="summary" id="location-text">---</p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+
+        </div>
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
